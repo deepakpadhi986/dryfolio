@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #807c7c;
+}
+
+/* #####HEADER#### */
+.heading{
+    color: #030080;
+}
+.role strong{
+    color: #9794f8;
+    text-transform: uppercase;
+}
+.role{
+    color: #807c7c;
+}
+.js{
+    color: gold;
+    font-weight: bold;
+}
+span{
+    color: #807c7c;
+    font-weight: normal;
+    /* color: #FF6868; */
+}
+.role small{
+    color: #116530;
+    font-weight: bold;
+}
+
+/* ####MAIN#### */
+.course{
+    color: #064663;
+}
+.clg{
+    color: #041C32;
+    font-size: medium;
+}
+.year{
+    color: #ECB365;
+}
+.edu{
+    color: #000957;
+}
+.ed , header, main, footer{
+    /* margin-left: 20px; */
+    padding-left: 35px;
+}
+hr{
+    width: 90%;
+}
+.skill td{
+    color: #807c7c;
+}
+a,a:visited{
+    color: #030080;
+    text-decoration: none;
+}
+/* ####Footer#### */
+footer{
+    text-align: center;
+}
+.links{
+    margin-left: 250px;
+}
