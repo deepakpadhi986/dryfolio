@@ -3,9 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Deepak's Personal Site</title>
+    <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans&family=Zen+Kurenaido&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <!-- css -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
     <style>
         body{
             font-family: 'Work Sans',Verdana, sans-serif;
@@ -13,141 +22,169 @@
     </style>
 </head>
 <body>
-        <!-- about -->
-    <table cellspacing="20">
-        <tr>
-            <td>
-                <img src="images/pic.png" alt="Profile image" width="100%">
-            </td>
-            <td>
-                <h1>Deepak Padhi</h1>
-                <p><em>Student and <strong>Web Developer</strong></em></p>
-                <p>JavaScript =<em> Love in Air</em></p>
-                <p>I am a Web developer Primarily focused on backend & API's. <small>(Node.js)</small></p>
-            </td>
-        </tr>
-    </table>
-    <hr size="3" noshade="">
-
-        <!-- Education -->
-    <h3>Education</h3>
-    <ul>
-        <li>
-            <h5>Kirti M Doongursee College Dadar (W)</h5>
-            <strong>Bsc Computer Science</strong> 
-            <p>2020 - Present</p>
-        </li>
-        <li>
-            <h5>Vidyanidhi Jr College of Science</h5>
-            <strong>12th | HSC <em>54.62%</em></strong> 
-            <p>2018 - 2020</p>
-        </li>
-        <li>
-            <h5>St.Xaviers's Hight School & junior College Vile Parle (W)</h5>
-            <strong>10th | SSC 62.20%</strong> 
-            <p>2008 - 2018</p>
-        </li>
-    </ul>
-
-        <!-- Skills -->
-    <hr size="3" noshade="">
-    <fieldset>
-        <legend><h3>Skills</h3></legend>
+    <!-- ===============ABOUT=============== -->
+    <header>
         <table cellspacing="20">
             <tr>
-                <td>HTML(5)</td>
-                <td>⭐⭐⭐⭐⭐</td>
-                <td>CSS(3)</td>
-                <td>⭐⭐⭐⭐</td>
-            </tr>    
-            <tr>
-                <td>Bootsrtap FrameWork</td>
-                <td>⭐⭐⭐⭐⭐</td>
-                <td>SEO</td>
-                <td>⭐⭐⭐⭐⭐</td>
-            </tr>    
-            <tr>
-                <td>JavaScript ES6</td>
-                <td>⭐⭐</td>
-                <td>JQuery</td>
-                <td>⭐⭐</td>
-            </tr>    
-            <tr>
-                <td>Node.js</td>
-                <td>⭐⭐</td>
-                <td>Express.js</td>
-                <td>⭐⭐</td>
-            </tr>    
-            <tr>
-                <td>React</td>
-                <td>⭐</td>
-                <td>JSON</td>
-                <td>⭐⭐⭐⭐⭐</td>
-            </tr>    
-            <tr>
-                <td>SQL</td>
-                <td>⭐</td>
-                <td>MongoDB</td>
-                <td>⭐⭐⭐</td>
-            </tr>  
-            <tr>
-                <td>Python</td>
-                <td>⭐⭐⭐</td>
-                <td>Java</td>
-                <td>⭐</td>
-            </tr>    
-            <tr>
-                <td>Git, GitHub</td>
-                <td>⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td>CLI</td>
-                <td>⭐⭐⭐⭐</td>
-            </tr>   
-        </table>
-    </fieldset>
-
-    <!-- Works -->
-    <fieldset>
-        <legend><h3>Work Experience</h3></legend>
-        <table cellspacing="20">
-            <tr>
-                <td>2020 - Present</td>
-                <td>Working on Projects & Learning on Web Stacks to imporve more productivity</td>
+                <td>
+                    <img src="images/pic.png" alt="Profile image" width="100%">
+                </td>
+                <td>
+                    <h1 class="heading"><i class="far fa-user"></i> Deepak Padhi</h1>
+                    <p class="role">Student and <strong>Web Developer </strong></p>
+                    <p class="js">JavaScript <span>= Love in Air</span></p>
+                    <p class="role">I am a Web developer Primarily focused on backend & API's. <small>(Node.js)</small></p>
+                </td>
             </tr>
         </table>
-    </fieldset>
-
-    <!-- Projects -->
-    <fieldset>
-        <legend><h3>Projects</h3></legend>
-        <table cellspacing="20">
+        <hr size="3" noshade="">
+    </header>
+    <!-- ===============MAIN=============== -->
+    <main>
+        <!-- ####EDUCATION#### -->
+        <div class="ed">
+            <h3 class="edu">Education</i></h3>
+            <ul>
+                <li>
+                    <h5 class="clg">Kirti M Doongursee College Dadar (W)</h5>
+                    <strong class="course">Bsc Computer Science</strong> 
+                    <p class="year">2020 - Present</p>
+                </li>
+                <li>
+                    <h5 class="clg">Vidyanidhi Jr College of Science</h5>
+                    <strong class="course">12th | HSC 54.62%</strong> 
+                    <p class="year">2018 - 2020</p>
+                </li>
+                <li>
+                    <h5 class="clg">St.Xaviers's Hight School & junior College Vile Parle (W)</h5>
+                    <strong class="course">10th | SSC 62.20%</strong> 
+                    <p class="year">2008 - 2018</p>
+                </li>
+            </ul>
+        </div>
+        <!-- ####SKILLS#### -->
+        <fieldset>
+            <legend><h3 class="edu">Skills</h3></legend>
+            <table class="skill" cellspacing="20">
+                <tr>
+                    <td>HTML(5)</td>
+                    <td>⭐⭐⭐⭐⭐</td>
+                    <td>CSS(3)</td>
+                    <td>⭐⭐⭐⭐</td>
+                </tr>    
+                <tr>
+                    <td>Bootsrtap FrameWork</td>
+                    <td>⭐⭐⭐⭐⭐</td>
+                    <td>SEO</td>
+                    <td>⭐⭐⭐⭐⭐</td>
+                </tr>    
+                <tr>
+                    <td>JavaScript ES6</td>
+                    <td>⭐⭐⭐⭐</td>
+                    <td>JQuery</td>
+                    <td>⭐⭐⭐⭐</td>
+                </tr>    
+                <tr>
+                    <td>Node.js</td>
+                    <td>⭐⭐⭐⭐</td>
+                    <td>Express.js</td>
+                    <td>⭐⭐⭐⭐</td>
+                </tr>    
+                <tr>
+                    <td>React</td>
+                    <td>⭐⭐⭐⭐</td>
+                    <td>JSON</td>
+                    <td>⭐⭐⭐⭐⭐</td>
+                </tr>    
+                <tr>
+                    <td>SQL</td>
+                    <td>⭐⭐⭐⭐</td>
+                    <td>MongoDB</td>
+                    <td>⭐⭐⭐⭐</td>
+                </tr>      
+                <tr>
+                    <td>DSA(JS)</td>
+                    <td>⭐⭐⭐⭐</td>
+                    <td>OOPS(JS)</td>
+                    <td>⭐⭐⭐⭐</td>
+                </tr>     
+                <tr>
+                    <td>Python</td>
+                    <td>⭐⭐⭐</td>
+                    <td>Java</td>
+                    <td>⭐⭐</td>
+                </tr>    
+                <tr>
+                    <td>Git, GitHub</td>
+                    <td>⭐⭐⭐⭐</td>
+                    <td>Deployment(AWS)</td>
+                    <td>⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>CLI</td>
+                    <td>⭐⭐⭐⭐</td>
+                </tr>   
+            </table>
+        </fieldset>
+        <!-- ####WORKS#### -->
+        <fieldset>
+            <legend><h3 class="edu">Work Experience</h3></legend>
+            <table cellspacing="20">
+                <tr>
+                    <td>2020 - Present</td>
+                    <td>Working on Projects & Learning on Web Stacks to imporve more productivity</td>
+                </tr>
+            </table>
+        </fieldset>
+    
+        <!-- ####PROJECTS#### -->
+        <fieldset>
+            <legend><h3 class="edu">Projects</h3></legend>
+            <table cellspacing="20">
+                <tr>
+                    <td>Relaxfolio</td>
+                    <td><a href="http://relaxfolio.000webhostapp.com/">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Jackfolio</td>
+                    <td><a href="https://deepakpadhi986.github.io/Jackfolio/">Link</a></td>
+                </tr>
+                <tr>
+                    <td>T-rex.design</td>
+                    <td><a href="https://deepakpadhi986.github.io/Blog-Website/">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Simple Python Programs</td>
+                    <td><a href="https://github.com/deepakpadhi986/Python">Link</a></td>
+                </tr>
+                <tr>
+                    <td>jack-portfolio</td>
+                    <td><a href="https://deepakpadhi986.github.io/jack-portfolio/">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Calculator</td>
+                    <td><a href="https://deepakpadhi986.github.io/Calculator/">Link</a></td>
+                </tr>
+            </table>
+        </fieldset>
+        <hr size="3" noshade="">
+    </main>
+    <!-- ===============FOOTER=============== -->
+    <footer>
+        <div class="logo">
+            <img src="favicon/android-chrome-512x512.png" alt="logo" width="5%">
+        </div>
+        <h5>An Attempt to make a Simple CV Like Website</h5>
+        <table class="links" cellspacing="20">
             <tr>
-                <td>Relaxfolio</td>
-                <td><a href="http://relaxfolio.000webhostapp.com/">Link</a></td>
+                <td><i class="fab fa-instagram"></i><a href="https://instagram.com/deepakpadhi976?igshid=l3zz89pxk9i5"> Instagram</a></td>
+                <td><i class="fab fa-facebook"></i><a href="https://www.facebook.com/profile.php?id=100014511904327"> Facebook</a></td>
+                <td><i class="far fa-paper-plane"></i><a href="mailto:deepakpadhi90058@gmail.com"> Mail</a></td>
+                <td><i class="fab fa-github"></i><a href="https://deepakpadhi986.github.io/"> Github</a></td>
             </tr>
         </table>
-    </fieldset>
-
-    <hr size="3" noshade="">
-    <!-- others -->
-    <table cellspacing="20">
-        <tr>
-            <td><a href="https://www.instagram.com">Insta</a></td>
-            <td><a href="https://www.facebook.com">Facebook</a></td>
-            <td><a href="mailto:deepakpadhi90058@gmail.com">Mail</a></td>
-        </tr>
-    </table>
-    <tabel cellspacing="20">
-  <tr>
-    <td>Visitors</td> 
-    <td>
-      <!-- hitwebcounter Code START -->
-        <a href="https://www.hitwebcounter.com" target="_blank">
-        <img src="https://hitwebcounter.com/counter/counter.php?page=7910499&style=0008&nbdigits=9&type=page&initCount=0" title="Free Counter" Alt="web counter"   border="0" /></a>  
-    </td> 
-  </tr>  
-</tabel>
-    <hr size="3" noshade="">
+        <p>© 2021 Deepak Padhi</p>
+        <!-- <hr size="3" noshade=""> -->
+    </footer>
 </body>
 </html>
