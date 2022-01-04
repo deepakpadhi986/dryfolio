@@ -61,9 +61,6 @@ a,a:visited{
 footer{
     text-align: center;
 }
-.links{
-    margin-left: 250px;
-}
 .info{
     width: 100%;
     height: 30px;
@@ -82,3 +79,23 @@ footer{
     margin-top: 60px;
     font-size: small;
 }
+@media screen and (min-width:250px), (max-width: 600px) {
+    .links{
+        margin-left: 260px;
+    }
+  }
+@media screen and (min-width:1024px){
+    .links{
+        margin-left: 280px;
+    }
+  }
+@media screen and (min-width:1440px){
+    .links{
+        margin-left: 500px;
+    }
+  }
+@media screen and (min-width:2560px){
+    .links{
+        margin-left: 1040px;
+    }
+  }
